@@ -21,7 +21,7 @@ app.get('/numbers', async (req, res) => {
                 data.numbers.forEach((num) => uniqueNumbers.add(num));
             }
         } catch (error) {
-            // Ignore timeouts and other errors
+            
         }
     });
 
